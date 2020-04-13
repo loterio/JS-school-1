@@ -9,5 +9,7 @@ verificar se o primeiro número é igual ou maior
 que o segundo.
 
 3. Com base no exemplo “Soma()”, monte uma
-página para calcular o índice de massa corpórea    IMC = peso(kg) / altura(m)²
+página para calcular o índice de massa corpórea    
 (IMC) de uma pessoa. 
+
+IMC = peso(kg) / altura(m)²
