@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activity #3</title>
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    div.input {
+      background-color: rgba(204, 204, 204, 0.35);
+      border-radius: 2px;
+      width: 50px;
+      min-height: 20px;
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="1.htm">1 at.</a></li>
+    <li><a href="2.htm">2 at.</a></li>
+    <li><a href="3.htm">3 at.</a></li>
+  </ul>
+  <h1>Activity <b>#3</b></h1>
+  <p>Type values and calculate IMC (corporeous mass)</p>
+
+  <input type="text" name="myInput" id="weight" placeholder="your weight">
+  <input type="text" name="myInputToo" id="height" placeholder="your height">
+  <input type="submit" onclick="getInputValue();"><br><br>
+
+  <div id="results"></div>
+
+  <script src="3.js"></script>
+</body>
+</html>
