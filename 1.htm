@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activity #1</title>
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    div.input {
+      background-color: rgba(204, 204, 204, 0.35);
+      border-radius: 2px;
+      width: 50px;
+      min-height: 20px;
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="1.htm">1 at.</a></li>
+    <li><a href="2.htm">2 at.</a></li>
+    <li><a href="3.htm">3 at.</a></li>
+  </ul>
+  <h1>Activity <b>#1</b></h1>
+  <p>Type values and select their operation.</p>
+
+    <input type="text" name="myInput" id="one" placeholder="first number">
+    <input type="text" name="myInputToo" id="two" placeholder="second number">
+    <input type="submit" onclick="getInputValue();"><br><br>
+
+    <form>
+      <div class="input">
+        <input type="radio" name='opr' id="st" value="st"> +
+      </div>  
+      <div class="input">
+        <input type="radio" name='opr' id="nd" value="nd"> -
+      </div>
+      <div class="input">
+        <input type="radio" name='opr' id="rd" value="rd"> *
+      </div>
+      <div class="input">
+        <input type="radio" name='opr' id="th" value="th"> /
+      </div>
+    </form>
+
+  <div id="results"></div>
+
+  <script src="1.js"></script>
+</body>
+</html>
